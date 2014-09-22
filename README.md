@@ -44,7 +44,7 @@ time : 02:00 pm to 04:00 pm<br>
 </ul>
 
 
-<div ><a id="text"><h3><b>Linux</b></h3></a>
+<div id="text" ><a><h3><b>Linux</b></h3></a>
 <small>a short description </small>
 
 </div>
