@@ -1,4 +1,4 @@
-<h1>try <b>Linux</b></h1>
+<h1>try <b><a href="#text">Linux</a></b></h1>
 <small>Presentation on awesomeness of Linux <small>
 
 <strong>Framework : </strong> <a href="https://github.com/hakimel/reveal.js/">reveal.js</a>
@@ -41,6 +41,10 @@ time : 02:00 pm to 04:00 pm<br>
 <li>The Future</li>
 <li>Use your computer as you like to</li>
 <li>Questions?</li>
-
-
 </ul>
+
+
+<div ><a id="text"><h3><b>Linux</b></h3></a>
+<small>a short description </small>
+
+</div>
