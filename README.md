@@ -9,18 +9,24 @@
 
 <strong>Forum : </strong> <a href="https://groups.google.com/forum/#!forum/scriet-ossdg">https://groups.google.com/forum/#!forum/scriet-ossdg</a>
 
-<strong>Contributers : </strong>
+<strong>Seminar</strong>
+venue : ec-seminar hall, SCRIET CCS University Campus, Meerut
+date : 16 sep. 2014
+time : 02:00 pm to 04:00 pm
+
+<strong>Contributors : </strong>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Vishal Gupta</li>
+<li>Harish Tiwari</li>
+<li>Vikas kr Singh</li>
+</ul>
+<strong>Volunteers :</strong>
+<ul>
+<li>Shubham Mishra</li>
+<li>Reetendra Pratap Singh</li>
+<li>Atul Kr Saini</li>
+<li>Abhishek Rai</li>
+<li>Aman Prakash Gupta</li>
+<li>Saket Gupta</li>
 </ul>
 
