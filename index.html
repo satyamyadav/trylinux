@@ -1,0 +1,1326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>linux is better .... isn't it ? </title>
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+ 
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+ 
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if (window.location.search.match(/print-pdf/gi)) {
+      var link = document.createElement('link');
+ 
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = 'css/print/pdf.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    }
+  </script>
+ 
+  <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+ 
+  <!-- Slides  content to be added here -->
+ 
+    <div class="reveal">
+  <div class="slides">
+<!---  section-->
+      <section id="title" data-background="img/poster_linux.jpg">
+          <section data-background="rgba(255,255,255,0.9)" >
+			<a href="http://scrietossdg.blogspot.com">SCRIET OSSDG</a>
+			<br> <small>coding together...</small><br>
+			<br>
+
+					<h1>try<strong> linux !</strong></h1><br />
+					<h3>it is better...        ....isn't it ?</h3><br />
+					
+					
+					 
+        
+				<img width="200" height="200" src="img/pengmovie.gif"><br><br>
+            
+          </section>   
+       </section>
+<!-- ================================================================================= section-->
+
+
+				<section id="intro" data-background="img/agenda1.jpg">
+					<section data-background="rgba(155,255,255,0.9)" >
+					
+				    <h3><a href="">content</a></h3>
+                
+                   <ul>
+                   	<li><h3>Linux Operating System</h3> </li>
+                   	<li><h3>Where linux is being used </h3></li>
+                   	<li><h3><b>Why linux is better ?</b></h3></li>
+                   	<li><h3>Linux Adoption</h3></li>
+                   	<li><h3>The Future</h3></li>
+                   	<li><h3>Use your computer as you like to</h3></li>
+                   	<li><h3>Questions?</h3></li>
+                   	
+
+					</ul>
+					
+				</section>
+				</section>
+
+				<!--=================================slide=====================================-->		
+
+
+
+				
+
+				<section id="intro" data-background="img/linux1100.jpg" >
+					<section  data-background="rgba(255,255,255,0.9)">
+					
+				    <h3><a href="">Linux</a></h3>
+                
+                   <ul>
+                   	<li>Free & Open Source </li>
+                   	<li>Multi tasking  </li>
+                   	<li>Multi user</li>
+                   	<li>More platform supported</li>
+                   	<li>Unix-Like</li>
+                   	<li>More Secure </li>
+                   	<li>More Stable</li>
+                   	<li>Community Developed</li>
+
+					</ul>
+					
+				</section>
+				</section>
+
+				<!--=================================slide=====================================-->
+
+
+								<section id="unix-like" >
+					<section  data-background="rgba(255,230,230,0.7)">
+					
+				    <h3><a href="">Unix-like OS</a></h3>
+                
+
+					
+                <ul>
+                         <li>Behaves in a manner similar to a Unix
+system, while not necessarily conforming to or being certified to any version of
+the Single UNIX Specification.</li>
+                         <li>Unix was developed at AT&T's Bell Labs research
+center by Ken Thompson, Dennis Ritchie, and others.</li>
+                         <li>Other operating systems that emulate Unix to some extent are often called
+Unix-like.</li>
+                         <li>The most common version of Unix is Apple's OS X and Linux.
+work-alike.</li>
+                         
+
+					</ul>
+					
+				</section>
+				</section>
+
+				<!--=================================slide=====================================-->
+
+							<section id="os2" data-background="#sfsfsf">
+					<section>
+					
+				    <h3><a href="">The OS Architecture</a></h3>
+                
+                     <p><strong>Hardware layer</strong> - Hardware consists of all peripheral devices (RAM/ HDD/ CPU
+etc).
+<br><br><strong>Kernel</strong> - Core component of Operating System, interacts directly with hardware,
+provides low level services to upper layer components.
+<br><br><strong>OS Services</strong> <pre><code data-trim>shell: An interface to kernel, hiding complexity of kernel's functions from users.
+Takes commands from user and executes kernel's functions.</code></pre>
+<br><br><strong>User Applications</strong> - Utility programs giving user most of the functionalities of an operating
+systems.
+					
+                				
+				</section>
+				</section>
+
+				<!--=================================slide=====================================-->
+
+							<section id="os">
+					<section>
+					
+				    <h3><a href="">The OS Architecture</a></h3>
+                
+                     <img width="800" height="575" src="img/linux_architecture.jpg">
+					
+                				
+				</section>
+				</section>
+
+				<!--=================================slide=====================================-->
+
+
+
+					<section id="os3" data-background="#FCDDDD">
+					<section>
+					
+				    <h3><a href="">Monolithic Kernel</a></h3>
+				    <div>			
+<img src="img/monolithic.png">
+<div>
+                <div>
+                     A monolithic kernel is an operating system architecture where the entire
+operating system is working in kernel space and is alone in supervisor mode.
+<br>
+ It defines a high-level virtual
+interface over computer hardware. <br> Set of primitives or system calls
+implement all operating system services such as process management,
+concurrency, and memory management.	
+     </div>
+				</section>
+				</section>
+
+			
+
+				<!--=================================slide=====================================-->
+						<section >
+					<section>
+					
+				    <h3><a href="">Monolithic and Micro Kernels</a></h3>
+				    			
+<img src="img/mmk.png">
+
+				</section>
+				</section>
+
+			
+
+				<!--=================================slide=====================================-->
+						<section >
+					<section>
+					
+				    <h3><a href="">Linux and Minix</a></h3>
+				    			
+<img src="img/lmk2.png">
+
+				</section>
+				</section>
+
+			
+
+				<!--=================================slide=====================================-->
+
+		<section >
+					<section>
+					
+				    <h3><a href="">Linux and Minix</a></h3>
+				    			
+<img src="img/lmk.png">
+
+				</section>
+				</section>
+
+			
+
+				<!--=================================slide=====================================-->
+
+		<section >
+					<section>
+					
+				    <h3><a href="">Hybrid Kernel</a></h3>
+				    			
+<img src="img/hk.png">
+
+				</section>
+				</section>
+
+			
+
+				<!--=================================slide=====================================-->
+
+
+					<section  data-background="#aCDeDD">
+					<section>
+					
+				   <h3><a href="">Birth of Linux</a></h3>
+
+				   <table><tr><td><img src="img/Linus_Torvalds_(cropped).jpg"><br><a href="">Linus Trovalds</a><br><p><small>University Of Helsinki<small></p></td>
+				   	<td><ul><li>Released: 5 October 1991</li>
+				   		<li>1971: AT & T's Bell Labs released Unix</li>
+				   		<li>1980's: Unix adopted at Academic Institutions and Business</li>
+				   	<li>1983: GNU Project started, by Richard Stallman </li>
+
+
+
+				   	</ul></td></tr>
+                      <tr><td></td><td><ul><li>1985: Stallman started Free Software Foundation (FSF)</li>
+				   	<li>1989: Stallman wrote GNU General Public License</li></ul></td></tr>
+				   </table>
+				    		
+
+     
+				</section>
+				</section>
+
+
+
+<!--=================================slide=====================================-->
+
+
+
+
+
+					<section  data-background="#3CB6AA">
+					<section>
+					
+				   <h3><a href="">Birth of Linux</a></h3>
+
+				   <table><tr><td><img src="img/stallman.jpg"><br><a href="">Richard Stallman</a><br><p><small> 	President of the Free Software Foundation<small></p></td>
+				   	<td><ul><li>1990s : All programs required in OS, developed in GNU project except Kernel</li>
+				   		<li>1991: Linus Trovalds used Minix at University of Helsinki</li>
+				   		<li>Development of Linux kernel started on Minix & then moved to Linux systems</li>
+
+				   	<li>Minix components replaced by GNU applications </li>
+
+
+
+				   	</ul></td></tr>
+                      <tr><td></td><td><ul><li>GNU components + Linux kernel = full functional OS</li>
+				   	</ul></td></tr>
+				   </table>
+				    		
+
+     
+				</section>
+				</section>				
+
+<!--=================================slide=====================================-->
+
+
+
+<section id="intro" data-background="img/supercomputer.jpg"  style="color:white">
+					<section  data-background="rgba(155,225,255,0.9)">
+
+
+	 <h3>Who uses Linux ?</h3>
+<strong>Supercomputers</strong><br><br>
+<p>June 2013 : 95% of world's 500 supercomputers <br> including 44 fastest, run linux</p>
+					<br>
+				<center>	
+				   
+<table>
+<tr><td>Linux</td><td>476</td><td>95.2%</td></tr>
+<tr><td>AIX</td><td>15</td><td>3%</td></tr>
+<tr><td>Hybrid Unix/Linux</td><td>4</td><td>0.8%</td></tr>
+<tr><td>windows HPC</td><td>3</td><td>0.6%</td></tr>
+<tr><td>Other Unix</td><td>2</td><td>0.4%</td></tr>
+</table>				    			
+</center>
+
+				</section>
+				</section>
+
+
+<!--=================================slide=====================================-->
+
+
+<section id="intro" data-background="img/Linux.png" >
+					<section  data-background="rgba(255,255,255,0.9)">
+					
+				    <h3><a href="">Web Servers</a></h3>
+				   <ul>
+				   	<li>Most of the web servers run on linux</li>
+				   	<li>Networks in Home & Office </li>
+
+				   </ul> 
+
+				    <h3><a href="">Databases</a></h3>
+				   <ul>
+				   	<li>Linux is stable, secure and robust, <br>it's perfect for storing huge databases
+                           of information.</li>
+				   	
+				   	
+				   </ul> 			
+
+
+				</section>
+				</section>
+
+
+<!--=================================slide=====================================-->
+
+
+
+
+<section data-background="img/lhc.jpg">
+						<section  data-background="rgba(255,235,255,0.9)">
+					
+				    <h3><a href="">Scientific Computing </a></h3>
+				   <ul>
+				   	<li>Many Linux systems clustered together to work on a single task.</li>
+				   	<li>Wheather forecasting, physics simulations. </li>
+				   	<li>Data centers.</li>
+
+				   </ul> 
+
+				    <h3><a href="">Home Computing</a></h3>
+				   <ul>
+				   	<li>In home computing and office, because of stability and flexibility.</li>
+				   	
+				   	
+				   </ul> 			
+
+
+				</section>
+				</section>
+
+
+<!--=================================slide=====================================-->
+
+<section data-background="img/ubuntutouch.jpg">
+						<section  data-background="rgba(225,255,255,0.9)">
+					
+				    <h3><a href="">Mobile Devices</a></h3>
+				   <ul>
+				   	<li>Android </li>
+				   	<li>Firefox OS </li>
+				   	<li>Nokia N900 & N9</li>
+				   	<li>Motorola exz series</li>
+
+				   </ul> 
+
+				    <h3><a href="">Embedded Devices</a></h3>
+				   <ul>
+				   	<li>Debian - used on Raspberry Pi</li>
+				   	<li>BusyBox</li>
+				   	<li>PDAs </li>
+				   	<li>TomTom GPS navigation devices</li>
+
+				   	
+				   	
+				   </ul> 			
+
+
+				</section>
+				</section>
+
+
+<!--=================================slide=====================================-->
+
+
+
+<section data-background="img/foss.jpg">
+						<section  data-background="rgba(255,255,255,0.9)">
+					
+					
+				    <h3><a href="">why linux is better ....?</a></h3>
+				    <h2>Free and Open-source</h2>
+				   <ul>
+				   	<li>Linux is completely free of charge. </li>
+				   	<li>FOSS is computer software that is both free software and open source software. </li>
+				   	<li>Anyone is
+freely licensed to use, copy, study, and change the software in any way, and
+the source code is openly shared. </li>
+				   	<li>GNU GPL (General Public License)</li>
+				   	<li>Freedom</li>
+				   	
+
+				   </ul> 
+
+				    
+
+				</section>
+				</section>
+
+
+<!--=================================slide=====================================-->
+
+<section data-background="img/crapware.png">
+						<section  data-background="rgba(255,225,225,0.9)">
+					
+					
+				    <h3><a href="">Viruses...? </a></h3>
+				    
+				   <ul>
+				   	<li>Linux is  very well-protected against viruses.</li>
+				   	<li>Malware's
+lack of root access and fast updates to most Linux vulnerabilities. </li>
+				   	<li>Linux :) total known malware = about 60 to 100 </li>
+				   	<li>MS Windows :) total known malware = about 60,000 </li>
+				   	
+				   	
+
+				   </ul> 
+
+				    
+
+				</section>
+				</section>
+
+
+<!--==============================================slide=======================================-->
+
+<section data-background="#aaDDee">
+					<section>
+					
+				    <h3><a href="">Crapware...? </a></h3>
+				    
+				   <p>When you first turn on computer: countless windows start to open, asking
+you to subscribe for services, the premium version of an antivirus, games you
+never asked for, productivity applications requiring you to create an account
+online, etc.</p>
+
+				    
+
+				</section>
+				</section>
+
+
+<!--==============================================slide=======================================-->
+
+<section data-background="">
+					<section>
+					
+				    <h3><a href="">More secure</a></h3>
+				    <ul>
+				    	<li>Linux does not have an open back door.</li>
+				    	<li>Bottom up, community driven development.</li>
+				    	<li> 8 different security modules or 8 walls to protect the Linux Core</li>
+				    	
+				    </ul>
+				    <table><tr><td><img src="img/1.2.03.jpg"></td><td><img src="img/1.2.05.jpg"></td></tr></table>
+                       
+                       
+				    
+
+				</section>
+				</section>
+
+
+<!--==============================================slide=======================================-->
+<section data-background="">
+					<section>
+					
+				    <h3><a href="">Better File Management System</a></h3>
+				    <ul>
+				    	<li>Fragmentation</li>
+				    	<li>boot partition: /boot  </li>
+				    	<li>system : /</li>
+				    	<li>user files : /home</li>
+				    	<li>ext2, ext3, ext4, Jfs, Xfs, FAT, FAT32, NTFS</li>				    	
+				    </ul>
+
+				    <h3><a href="">No restart except </a></h3>
+				    <ul>
+				    	<li>After installation of system</li>
+				    	<li>Critical updates in system</li>
+				    					    	
+				    </ul>
+				  
+
+				</section>
+				</section>
+
+
+<!--==============================================slide=======================================-->
+<section data-background="">
+					<section>
+					
+				    <h3><a href="">Stable</a></h3>
+				    <ul>
+				    	<li>Linux can run for years without needing to be
+restarted (most internet servers run Linux, and they usually never restart).</li>
+				    	<li>Linux lets you spend more time working, less time reinstalling and restarting over and over
+again.</li>
+				    	
+				    </ul>
+				  
+
+				</section>
+				</section>
+
+
+<!--==============================================slide=======================================-->
+<section data-background="#74E2D8">
+					<section>
+					
+				    <h3><a href="">Drivers....?</a></h3>
+				    <ul>
+				    	<li>Linux doesn't need separate drivers. All the drivers are already included in the
+Linux kernel, the core of the system, and that comes with every single Linux
+installation.</li>
+				    	<li>A very fast and standalone installation process. Once you're done, you have
+everything you need to start working (including the software you'll be using).
+Out-of-the-box ready peripherals.</li>
+				    	
+				    </ul>
+
+				  <img src="img/not-found.png">
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<section data-background="">
+					<section>
+					
+				   
+				     <h3><a href="">Pre installed softwares</a></h3>
+				    <ul>
+				    	<li>Word processor</li>
+
+
+				        <li>  Web browser (eg Firefox) and an email program (eg Thunderbird, or
+Evolution).</li>
+                        <li>An image editor (GIMP) nearly as powerful as Photoshop.
+<li>An instant messenger.</li>
+<li>A movie player.</li>
+<li>A music player and organizer.</li>
+<li>A PDF reader.</li>
+<li>Archives manager.</li>
+
+<a href="">You can just start working right away.</a>		    	
+				    </ul>
+				  
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+
+<section data-background="">
+					<section>
+					
+				   
+				     <h3><a href="">free softwares</a></h3>
+				   
+				 <img  src="img/synaptic.png">
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     <h3><a href="">open source equivalents of commercial softwares</a></h3>
+				    
+				  
+
+
+
+
+<table class="strech" cols="3" border="1" cellpadding="3">
+	<tr>
+	<th align="left">Commercial</th>
+	<th align="left">Open source</th>
+	
+	</tr>
+	
+		
+
+
+		
+		<tr>
+		<td align="left">Adobe Photoshop (~$600)</td>
+		<td align="left">The GIMP</td>
+		
+		</tr>
+
+
+		
+				
+		<tr>
+		<td align="left">Adobe Reader (free)</td>
+		<td align="left">Evince, Kpdf, GV</td>
+		
+		</tr>
+
+
+		
+		
+		<tr>
+		<td align="left">Autodesk 3ds Max (~$3500)</td>
+		<td align="left">Blender</td>
+		
+		</tr>
+
+
+		
+			
+				
+		
+		
+			
+		<tr>
+		<td align="left">Microsoft Excel (~$200)</td>
+		<td align="left">LibreOffice Spreadsheet</td>
+		
+		</tr>
+
+
+		
+		<tr>
+		<td align="left">Microsoft Internet Explorer (free)</td>
+		<td align="left">Firefox, Chrome, Konqueror</td>
+		
+		</tr>
+
+
+		
+		<tr>
+		<td align="left">Microsoft Office (~$400)</td>
+		<td align="left">LibreOffice</td>
+		
+		</tr>
+
+
+		
+		
+
+
+		
+		<tr>
+		<td align="left">Microsoft Powerpoint (~$200)</td>
+		<td align="left">LibreOffice Presentation</td>
+		
+		</tr>
+
+
+		
+		<tr>
+		<td align="left">Microsoft Windows Media Player (free)</td>
+		<td align="left">Mplayer, VLC, Totem, Kaffeine, Xine</td>
+		
+		</tr>
+
+
+		
+		<tr>
+		<td align="left">Microsoft Word (~$200)</td>
+		<td align="left">LibreOffice Word Processor</td>
+		
+		</tr>
+
+
+		
+			
+		<tr>
+		<td align="left">Nero (~$100)</td>
+		<td align="left">Brasero, K3b</td>
+		
+		</tr>
+
+
+			</table>
+
+
+</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+
+
+<section data-background="">
+					<section>
+					
+				   
+				     <h3><a href="">easy updates and upgrades</a></h3>
+				   
+				 
+				 
+				 <table><tr><td><img  src="img/Updater_006.png"></td><td><img  src="img/global_update.png"></td></tr></table>
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section id="intro" data-background="img/distros.jpg"  style="color:blue">
+					<section  data-background="rgba(255,225,255,0.9)">
+					
+				   
+				     
+				   <ul><li>Wndows xp ? | Windows7  ? |  Windows8 ? | Windows8.1 ?    but all from Microsoft only</li></ul>
+				 <a href="">thousands linux OS distros  </a><p>listed on  distrowatch.com</p>
+				 
+				 <img  src="img/linux_distros_2013.jpg">
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+
+
+
+<section data-background="">
+					<section>
+					
+				   
+				     <h3><a href="">Virtual workspaces</a></h3>
+				   
+				 
+		<img  src="img/workspaces_full.png">
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<section data-background="img/rpi1.jpg">
+					<section data-background="rgba(215,255,200,0.9)">
+					
+				   
+				     <h3><a href="">runs on many hardware architectures</a></h3>
+				     <a href="">Platforms</a><p> 	Alpha, ARC, ARM, AVR32, Blackfin, C6x, ETRAX CRIS, FR-V, H8/300, Hexagon, Itanium, M32R, m68k, META, Microblaze, MIPS, MN103, OpenRISC, PA-RISC, PowerPC, s390, S+core, SuperH, SPARC, TILE64, Unicore32, x86, Xtensa</p>
+                       <a href="">gives your old computer, "a new birth"</a>
+                       <p>Uses less hardware <br>
+                       Runs on open Hardwares </p>
+
+				   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<section data-background="img/support.png">
+					<section data-background="rgba(255,245,255,0.9)">
+					
+				   
+				     <h3><a href="">Free and unlimited support</a></h3>
+				     <p>One of the great assets of the Open Source community (and Linux in
+particular), is that it's a real community. Users and developers really are out
+there, on web forums, on mailing lists, on IRC channels, helping out new users.
+They're all happy to see more and more people switch to Linux, and they're
+happy to help them get a grip on their new system.</p>
+				   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+
+<section data-background="img/gnu_linux_earth.png">
+					<section data-background="rgba(235,255,235,0.9)">
+					
+				   
+				     <h3><a href="">Environment friendly</a></h3>
+				     <ul>
+                          <li><b>Reduced e-waste, Reduced toxins:</b> GNU/Linux distributions, with their minimal resource requirements and their free cost, are well suited to solve the problem of e-waste</li>
+                          <li>Linux runs pretty well even on very old machines, they can be recycled
+for various purposes (storage, internet access, multimedia box, etc.) instead of
+being thrown out!</li>
+                          <li><b>Efficient Power Consumption : </b> improved power conservation and efficiency relative to proprietary systems.</li>
+                         <li>No packaging in paper and plastics and no CDs </li>
+				     </ul>
+				   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     <h3><a href="">Linux Adoption</a></h3>
+				   <p>Linux adoption refers to new use of the Linux kernel based operating systems
+on computers by homes, organizations, companies, and governments.</p>
+				<a href="">Government</a>
+				<ul>
+                     <li>The Government of Kerala, India : State IT policy 2001</li>
+                     <li>First Free Software Conference in India "Freedom First", inaugration of Free 
+                     Software Foundation of India : July 2001 </li>
+                     <li>International Centre for Free and Open Source Software (ICFOSS) : 2009</li>
+
+                     
+                     <li>Government of Tamil Nadu switched to "BOSS Linux" (Bharat Operating System Solutions) : march 2014</li>
+                      				</ul>
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">Governments</a></h3>
+				
+				<ul><a href="">The U.S.</a>
+                     <li>White House's web server moved to Red Hat Linux : 2009</li>
+
+                     <li>US Army, US Navy, US Federal Aviation</li>
+                     <li>US National Nuclear Security : world's 10th fastest Supercomputer "IBM Roadrunner" : 
+                     	Red Hat Enterpise Linux + Fedora</li>
+                     	<a href="">France</a>
+                     <li>National Police Force : moving 90,000 Desktops from Windows XP to Ubuntu : 2007 </li>
+                     <li>French Parliament switched to Ubuntu in 2007</li>
+                     <a href="">Germany</a>
+                     <li>Federal Employment Office of Germany : migrated 13000 public workstations from Windows NT
+                     	to SpenSuse</li>
+                     
+
+                     
+                     
+                      				</ul>
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">Education</a></h3>
+				
+				<ul><a href="">India</a>
+
+                     <li>CCSU Meerut : A Open Source DMS 'Dspace' , Apache web server on Linux :)  http://ir.ccsuniversity.ac.in</li>
+                     <li>Tamil Nadu plans to distribute 100000 Linux Laptops to students.</li>
+                     <li>Govt. Officials of Kerala announced to use free software on Linux for computer education ,
+                     starting with 2,650 Govt. & Govt-aided High schools </li>
+
+                     
+                     <a href="">Americas</a>
+                     <li>Brazil: 35 million students in over 50,000 schools using 523,400 computers running Linux</li>
+                     <li>US state of Indiana: 22,000 students had access to Linux Workstations at their high schools in 
+                     	2006.</li>
+
+                     
+                     
+                      				</ul>
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">Education</a></h3>
+				
+				<ul><a href="">Germany</a>
+
+                     <li>560,000 students in 33 Universities will migrate to Linux</li>
+                     <a href="">China</a>
+                     <li>1,50,000 Linux PCs in rural schools : 2009</li>
+                     <a href="">Russia</a>
+                     <li>Announced that all its school computers will run on Linux : October 2007</li>
+
+                     
+                   
+
+                     
+                     
+                      				</ul>
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">Scientific Institutions</a></h3>
+				
+				<ul>
+                      <li><b>NASA</b> : International Space Station Laptops to be switched from Windows Xp to <i>Debian 6</i></li>
+                      <li>Both <b>CERN</b> and <b>Fermilab</b> use Scientific Linux in all their work</li>
+                      <li>WLCG is composed of 576 sites with more than 390,000 processors and 150
+Petabytes of Storage and uses Linux on all its nodes</li>
+<li><b>Canada'</b>s largest super computer, the <b>IBM iDataPlex</b> cluster computer at the
+University of Toronto uses Linux</li>
+<li><b>Tianhe-I</b>, the worlds fastest super computer as of October 2010, located at the
+National Centre for Supercomputing, <b>China</b> runs Linux</li>
+<li>The <b>UAVs</b> sense each
+other and control their own flight in relation to each other, each has an
+independent processor running Linux to accomplish this.</li>
+
+
+ 
+				</ul>
+
+                     
+                   
+
+                     
+                     
+                      		
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="img/windows_vc_linux.jpg">
+					<section>
+					
+				   
+				     
+				<h3><a href="">Windows vs Linux</a></h3>
+				
+			
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">The Future</a></h3>
+				<ul>
+                     <li>'Linux talent' on list of priorities of 70% Hiring managers in 2013 and 77% Hiring managers in 2014  </li>
+                     <li>93% of hiring managers plan to hire a Linux professional in the next six months</li>
+                     <li>86% of Linux professionals report that knowing Linux has given them more
+career opportunities</li>
+
+<li>Pros gave career advice back in <b> 2004</b>, and which they’ll
+likely still be repeating in <b>2024</b>: <a href="">learn Linux. it’s the future.</a></li>
+				</ul>
+			
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+
+
+<section data-background="#1E6CB3">
+					<section>
+					
+				 
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			
+		     <img class="strech" src="img/1.jpg">
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="#123D25">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/2.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/3.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<section data-background="#D7666B">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/5.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="#652673">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/6.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="#D27755">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/7.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="#BA62AD">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/8.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="#1C8A7F">
+					<section>
+					
+				   
+				     
+				<h3><a href="">use your computer as you love to</a></h3>
+				
+			<img class="strech" src="img/0.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="img/q1.jpg">
+					<section >
+					
+				   
+				     
+			
+				<img src="img/q2.jpg">
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">SCRIET OSSDG </a></h3>
+				<small>coding together...</small><br>
+				<i>Open Source Software Developers Group</i>
+			     <ul>
+                        <li>to promote adoption of free software</li>
+                        <li>to organize Activities/Session on Technology and Philosophy aspects of Free
+
+Software for students and academicians </li>
+<li>to facilitate students to do Open Source Software projects</li>
+<li>Mailing list for the General Body to communicate and share the activities and action plans</li>
+<li>Week-end meetups to discuss on ideas, innovations and further activities and actions of Scriet OSSDG</li>
+			     </ul>
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<section data-background="">
+					<section>
+					
+				   
+				     
+				<h3><a href="">SCRIET OSSDG </a></h3>
+				<small>coding together...</small><br>
+
+				
+				<h1>thanks!</h1>
+			    <a href="">facebook.com/scrietossdg</a><br><br>
+			    <a href="">scrietossdg.blogspot.com</a><br><br>
+			    <a href="">youtube.com/user/scrietossdg</a><br><br>
+			    <a href="">scrietossdg@gmail.com</a><br><br>
+			    <a href="">https://groups.google.com/forum/#!forum/scriet-ossdg</a>
+
+		   
+				 
+		
+
+				</section>
+				</section>
+
+
+<!--==============================================slide==================================-->
+
+<!--==============================================slide==================================-->
+
+
+			</div>
+
+		</div>   
+
+	 <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.min.js"></script>
+  <script>
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      keyboard: true,
+      transitionSpeed: 'slow', // default / fast / slow
+      backgroundTransition: 'slide', // default / none / slide / concave / convex / zoom    
+        
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+ 
+      // Parallax scrolling
+      // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+      // parallaxBackgroundSize: '2100px 900px',
+ 
+      // Optional libraries used to extend on reveal.js
+      dependencies: [{
+        src: 'lib/js/classList.js',
+        condition: function () {
+          return !document.body.classList;
+        }
+      }, {
+        src: 'plugin/markdown/marked.js',
+        condition: function () {
+          return !!document.querySelector('[data-markdown]');
+        }
+      }, {
+        src: 'plugin/markdown/markdown.js',
+        condition: function () {
+          return !!document.querySelector('[data-markdown]');
+        }
+      }, {
+        src: 'plugin/highlight/highlight.js',
+        async: true,
+        callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }, {
+        src: 'plugin/zoom-js/zoom.js',
+        async: true,
+        condition: function () {
+          return !!document.body.classList;
+        }
+      }, {
+        src: 'plugin/notes/notes.js',
+        async: true,
+        condition: function () {
+          return !!document.body.classList;
+        }
+      }]
+    });
+  </script>
+</body>
+</html>
