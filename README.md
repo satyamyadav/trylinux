@@ -1,5 +1,11 @@
-<h1>try <b><a href="#text">Linux</a></b></h1>
-<small>Presentation on awesomeness of Linux <small>
+<h1>try <b>Linux</b></h1>
+<small>A Presentation on awesomeness of Linux<br>using "reveal.js" (a open-source javascript framework
+for presentation), it has been represented in the first seminar of SCRIET OSSDG , however it is 
+not licensed under GNU GPL or other license but any one but feel free to download, edit, reuse, redistribute...
+and help us by making people use and know the power of FOSS and Linux.<br>
+<a href="https://github.com/satyamyadav/trylinux/archive/master.zip">download presentation</a>
+
+<small>
 
 <strong>Framework : </strong> <a href="https://github.com/hakimel/reveal.js/">reveal.js</a>
 
@@ -44,7 +50,7 @@ time : 02:00 pm to 04:00 pm<br>
 </ul>
 
 
-<div id="text" ><a><h3><b>Linux</b></h3></a>
+<div ><h3><b>Linux</b></h3>
 <small>a short description </small>
 
 </div>
